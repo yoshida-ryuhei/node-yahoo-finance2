@@ -1,8 +1,8 @@
 import { jest } from "@jest/globals";
 
-import validateAndCoerceTypes, { ajv } from "./validateAndCoerceTypes.js";
-import type { ValidateParams } from "./validateAndCoerceTypes.js";
-import { InvalidOptionsError, FailedYahooValidationError } from "./errors.js";
+import validateAndCoerceTypes, { ajv } from "./validateAndCoerceTypes.ts";
+import type { ValidateParams } from "./validateAndCoerceTypes.ts";
+import { InvalidOptionsError, FailedYahooValidationError } from "./errors.ts";
 
 ajv.addSchema({
   $id: "testSchema",
@@ -30,7 +30,7 @@ ajv.addSchema({
 
 // Default.  Use to show (unexpected) errors during tests.
 const defLogParams: ValidateParams = {
-  source: "validateAndCoerceTypes.spec.js",
+  source: "validateAndCoerceTypes.spec.ts",
   schemaKey: "testSchema",
   //schemaKey: "#/definitions/QuoteSummaryResult",
   type: "result",

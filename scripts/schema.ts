@@ -10,11 +10,11 @@ import {
 
 // @ts-expect-error: no types
 import schemaWalker from "oas-schema-walker";
-import walkerCallback from "./schema/postWalker.js";
+import walkerCallback from "./schema/postWalker.ts";
 
-import yfNumberTypeFormatter from "./schema/TypeFormatter/yfNumberTypeFormatter.js";
-import yfReferenceTypeFormatter from "./schema/TypeFormatter/yfReferenceTypeFormatter.js";
-import yfFunctionIgnorer from "./schema/TypeFormatter/yfFunctionIgnorer.js";
+import yfNumberTypeFormatter from "./schema/TypeFormatter/yfNumberTypeFormatter.ts";
+import yfReferenceTypeFormatter from "./schema/TypeFormatter/yfReferenceTypeFormatter.ts";
+import yfFunctionIgnorer from "./schema/TypeFormatter/yfFunctionIgnorer.ts";
 
 //const OUTPUT_PATH = "schema.json";
 const OUTPUT_PATH = process.stdout;

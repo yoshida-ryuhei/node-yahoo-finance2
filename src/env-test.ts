@@ -7,7 +7,7 @@ let fetchDevelFunc: (url: RequestInfo, init?: RequestInit) => Promise<Response>;
 async function fetchDevel() {
   if (fetchDevelFunc) return fetchDevelFunc;
 
-  const module = await import("./lib/fetchDevel.js");
+  const module = await import("./lib/fetchDevel.ts");
   fetchDevelFunc = module.default;
   return fetchDevelFunc;
 }

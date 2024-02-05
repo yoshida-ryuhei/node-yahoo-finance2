@@ -5,9 +5,9 @@ import addFormats from "ajv-formats";
 //import schema from '../../schema.json';
 import schema from "../../schema.json";
 import pkg from "../../package.json";
-import { InvalidOptionsError, FailedYahooValidationError } from "./errors.js";
+import { InvalidOptionsError, FailedYahooValidationError } from "./errors.ts";
 
-// https://ajv.js.org/docs/api.html#options
+// https://ajv.ts.org/docs/api.html#options
 export const ajv = new Ajv({
   // All rules, all errors.  Don't end early after first error.
   allErrors: true,

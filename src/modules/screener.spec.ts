@@ -1,5 +1,5 @@
-import screener from "./screener.js";
-import testYf from "../../tests/testYf.js";
+import screener from "./screener.ts";
+import testYf from "../../tests/testYf.ts";
 
 const yf = testYf({ screener });
 

@@ -2,7 +2,7 @@ import type { Config } from "@jest/types";
 
 const config: Config.InitialOptions = {
   preset: "ts-jest/presets/default-esm",
-  setupFilesAfterEnv: ["<rootDir>/tests/setupTests.js"],
+  setupFilesAfterEnv: ["<rootDir>/tests/setupTests.ts"],
   testEnvironment: "node",
   testPathIgnorePatterns: [
     "<rootDir>/node_modules/",
@@ -20,12 +20,12 @@ const config: Config.InitialOptions = {
     ],
   },
   moduleNameMapper: {
-    "(.*)\\.js$": "$1",
+    "(.*)\\.ts$": "$1",
   },
   /*
   reporters: [
-    '<rootDir>/tests/reporter.js',
-    '<rootDir>/tests/summary-reporter.js',
+    '<rootDir>/tests/reporter.ts',
+    '<rootDir>/tests/summary-reporter.ts',
   ],
   */
 };

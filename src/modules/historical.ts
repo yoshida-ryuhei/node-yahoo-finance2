@@ -3,7 +3,7 @@ import type {
   ModuleOptionsWithValidateTrue,
   ModuleOptionsWithValidateFalse,
   ModuleThis,
-} from "../lib/moduleCommon.js";
+} from "../lib/moduleCommon.ts";
 
 export type HistoricalHistoryResult = Array<HistoricalRowHistory>;
 export type HistoricalDividendsResult = Array<HistoricalRowDividend>;

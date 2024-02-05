@@ -2,14 +2,14 @@ import * as util from "util";
 import { jest } from "@jest/globals";
 import { Headers } from "node-fetch";
 
-import Queue from "./queue.js";
+import Queue from "./queue.ts";
 import _yahooFinanceFetch, {
   substituteVariables,
-} from "./yahooFinanceFetch.js";
-import errors from "./errors.js";
+} from "./yahooFinanceFetch.ts";
+import errors from "./errors.ts";
 
-import _env from "../env-test.js";
-import _opts from "./options.js";
+import _env from "../env-test.ts";
+import _opts from "./options.ts";
 
 // https://dev.to/devcrafter91/elegant-way-to-check-if-a-promise-is-pending-577g
 function isPending(promise: any) {

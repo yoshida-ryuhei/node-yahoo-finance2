@@ -3,9 +3,9 @@ import type {
   ModuleOptionsWithValidateTrue,
   ModuleOptionsWithValidateFalse,
   ModuleThis,
-} from "../lib/moduleCommon.js";
+} from "../lib/moduleCommon.ts";
 
-import type { DateInMs } from "../lib/commonTypes.js";
+import type { DateInMs } from "../lib/commonTypes.ts";
 
 export interface InsightsResult {
   [key: string]: any;

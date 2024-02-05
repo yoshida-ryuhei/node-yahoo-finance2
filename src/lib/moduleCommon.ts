@@ -1,4 +1,4 @@
-//import ModuleExec from "./moduleExec.js";
+//import ModuleExec from "./moduleExec.ts";
 
 export interface ModuleOptions {
   validateResult?: boolean;

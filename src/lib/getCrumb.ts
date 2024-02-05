@@ -1,6 +1,6 @@
 import type { RequestInfo, RequestInit, Response } from "node-fetch";
 import type { ExtendedCookieJar } from "./cookieJar";
-import { Logger } from "./options.js";
+import { Logger } from "./options.ts";
 import { Cookie } from "tough-cookie";
 
 const CONFIG_FAKE_URL = "http://config.yf2/";

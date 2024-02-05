@@ -1,6 +1,6 @@
-import quote from "./quote.js";
-import testSymbols from "../../tests/testSymbols.js";
-import testYf from "../../tests/testYf.js";
+import quote from "./quote.ts";
+import testSymbols from "../../tests/testSymbols.ts";
+import testYf from "../../tests/testYf.ts";
 
 const marketStates = [
   "PREPRE",

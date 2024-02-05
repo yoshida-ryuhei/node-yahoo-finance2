@@ -1,12 +1,12 @@
 import type { RequestInfo, RequestInit, Response } from "node-fetch";
-import Queue from "./queue.js";
+import Queue from "./queue.ts";
 
-import type { YahooFinanceOptions } from "./options.js";
-import type { QueueOptions } from "./queue.js";
+import type { YahooFinanceOptions } from "./options.ts";
+import type { QueueOptions } from "./queue.ts";
 
-import errors from "./errors.js";
+import errors from "./errors.ts";
 import pkg from "../../package.json";
-import getCrumb from "./getCrumb.js";
+import getCrumb from "./getCrumb.ts";
 
 const userAgent = `${pkg.name}/${pkg.version} (+${pkg.repository})`;
 

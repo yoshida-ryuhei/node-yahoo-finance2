@@ -1,10 +1,10 @@
 import env from "../env-test";
 import getCrumb, { _getCrumb, getCrumbClear } from "./getCrumb";
 import { jest } from "@jest/globals";
-import { consoleSilent, consoleRestore } from "../../tests/console.js";
-import options from "./options.js";
+import { consoleSilent, consoleRestore } from "../../tests/console.ts";
+import options from "./options.ts";
 
-import { ExtendedCookieJar } from "./cookieJar.js";
+import { ExtendedCookieJar } from "./cookieJar.ts";
 
 describe("getCrumb", () => {
   const { logger } = options;

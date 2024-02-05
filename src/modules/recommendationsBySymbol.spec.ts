@@ -1,6 +1,6 @@
-import recommendationsBySymbol from "./recommendationsBySymbol.js";
-import testSymbols from "../../tests/testSymbols.js";
-import testYf from "../../tests/testYf.js";
+import recommendationsBySymbol from "./recommendationsBySymbol.ts";
+import testSymbols from "../../tests/testSymbols.ts";
+import testYf from "../../tests/testYf.ts";
 
 const yf = testYf({ recommendationsBySymbol });
 

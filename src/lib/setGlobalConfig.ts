@@ -1,7 +1,7 @@
-import type { YahooFinanceOptions } from "./options.js";
-import type { ModuleThis } from "./moduleCommon.js";
-import validateAndCoerceTypes from "./validateAndCoerceTypes.js";
-import { ExtendedCookieJar } from "./cookieJar.js";
+import type { YahooFinanceOptions } from "./options.ts";
+import type { ModuleThis } from "./moduleCommon.ts";
+import validateAndCoerceTypes from "./validateAndCoerceTypes.ts";
+import { ExtendedCookieJar } from "./cookieJar.ts";
 
 export default function setGlobalConfig(
   this: ModuleThis,

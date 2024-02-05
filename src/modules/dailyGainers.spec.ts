@@ -1,5 +1,5 @@
-import dailyGainers from "./dailyGainers.js";
-import testYf from "../../tests/testYf.js";
+import dailyGainers from "./dailyGainers.ts";
+import testYf from "../../tests/testYf.ts";
 
 const yf = testYf({ dailyGainers });
 

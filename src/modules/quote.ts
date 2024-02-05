@@ -3,9 +3,9 @@ import type {
   ModuleOptionsWithValidateTrue,
   ModuleOptionsWithValidateFalse,
   ModuleThis,
-} from "../lib/moduleCommon.js";
+} from "../lib/moduleCommon.ts";
 
-import type { DateInMs, TwoNumberRange } from "../lib/commonTypes.js";
+import type { DateInMs, TwoNumberRange } from "../lib/commonTypes.ts";
 
 export interface QuoteBase {
   [key: string]: any;

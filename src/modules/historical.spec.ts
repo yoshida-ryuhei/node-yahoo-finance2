@@ -1,15 +1,15 @@
 import { jest } from "@jest/globals";
 
-import historical from "./historical.js";
-import testSymbols from "../../tests/testSymbols.js";
+import historical from "./historical.ts";
+import testSymbols from "../../tests/testSymbols.ts";
 
-import testYf from "../../tests/testYf.js";
-import { consoleSilent, consoleRestore } from "../../tests/console.js";
+import testYf from "../../tests/testYf.ts";
+import { consoleSilent, consoleRestore } from "../../tests/console.ts";
 
 const yf = testYf({ historical });
 
 describe("historical", () => {
-  // See also common module tests in moduleExec.spec.js
+  // See also common module tests in moduleExec.spec.ts
 
   const symbols = testSymbols({
     skip: ["BEKE", "BFLY", "SIMP", "^VXAPL", "APS.AX" /* Not Found */],

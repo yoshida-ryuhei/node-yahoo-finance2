@@ -1,8 +1,8 @@
-import quoteSummary, { QuoteSummaryModules } from "./quoteSummary.js";
-import { InvalidOptionsError } from "../lib/errors.js";
+import quoteSummary, { QuoteSummaryModules } from "./quoteSummary.ts";
+import { InvalidOptionsError } from "../lib/errors.ts";
 
-import testSymbols from "../../tests/testSymbols.js";
-import testYf from "../../tests/testYf.js";
+import testSymbols from "../../tests/testSymbols.ts";
+import testYf from "../../tests/testYf.ts";
 
 const yf = testYf({ quoteSummary });
 
@@ -52,7 +52,7 @@ function itValidates(
 
 describe("quoteSummary", () => {
   describe("quoteSummary", () => {
-    // See also common module tests in moduleExec.spec.js
+    // See also common module tests in moduleExec.spec.ts
 
     if (process.env.FETCH_DEVEL !== "nocache")
       it("throws on invalid result", async () => {

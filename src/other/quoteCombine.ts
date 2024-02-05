@@ -3,12 +3,12 @@ import type {
   ModuleOptionsWithValidateTrue,
   ModuleOptionsWithValidateFalse,
   ModuleThis,
-} from "../lib/moduleCommon.js";
+} from "../lib/moduleCommon.ts";
 
-import type { QuoteOptions, Quote } from "../modules/quote.js";
-import quote from "../modules/quote.js";
+import type { QuoteOptions, Quote } from "../modules/quote.ts";
+import quote from "../modules/quote.ts";
 
-import validateAndCoerceTypes from "../lib/validateAndCoerceTypes.js";
+import validateAndCoerceTypes from "../lib/validateAndCoerceTypes.ts";
 
 const DEBOUNCE_TIME = 50;
 

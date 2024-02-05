@@ -3,9 +3,9 @@ import type {
   ModuleOptionsWithValidateTrue,
   ModuleOptionsWithValidateFalse,
   ModuleThis,
-} from "../lib/moduleCommon.js";
+} from "../lib/moduleCommon.ts";
 
-import { Quote } from "./quote.js";
+import { Quote } from "./quote.ts";
 
 export interface OptionsResult {
   [key: string]: any;

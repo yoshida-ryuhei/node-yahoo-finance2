@@ -3,7 +3,7 @@ import type {
   ModuleOptionsWithValidateFalse,
   ModuleOptionsWithValidateTrue,
   ModuleThis,
-} from "../lib/moduleCommon.js";
+} from "../lib/moduleCommon.ts";
 
 export interface RecommendationsBySymbolResponse {
   [key: string]: any;

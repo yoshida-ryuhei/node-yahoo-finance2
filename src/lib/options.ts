@@ -1,7 +1,7 @@
 // TODO, keep defaults there too?
-import type { ValidationOptions } from "./validateAndCoerceTypes.js";
-import type { QueueOptions } from "./queue.js";
-import { ExtendedCookieJar } from "./cookieJar.js";
+import type { ValidationOptions } from "./validateAndCoerceTypes.ts";
+import type { QueueOptions } from "./queue.ts";
+import { ExtendedCookieJar } from "./cookieJar.ts";
 
 export interface Logger {
   info: (...args: any[]) => void;

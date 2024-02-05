@@ -1,5 +1,5 @@
-import trendingSymbols from "./trendingSymbols.js";
-import testYf from "../../tests/testYf.js";
+import trendingSymbols from "./trendingSymbols.ts";
+import testYf from "../../tests/testYf.ts";
 
 const yf = testYf({ trendingSymbols });
 

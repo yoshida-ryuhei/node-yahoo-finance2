@@ -1,7 +1,7 @@
-import { consoleSilent, consoleRestore } from "../../tests/console.js";
-import testYf from "../../tests/testYf.js";
-import options from "./options.js";
-import setGlobalConfig from "./setGlobalConfig.js";
+import { consoleSilent, consoleRestore } from "../../tests/console.ts";
+import testYf from "../../tests/testYf.ts";
+import options from "./options.ts";
+import setGlobalConfig from "./setGlobalConfig.ts";
 const yf = testYf({ setGlobalConfig });
 
 describe("setGlobalConfig", () => {

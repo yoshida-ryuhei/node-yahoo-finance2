@@ -1,13 +1,13 @@
 // /// <reference path="quoteSummary-iface.ts"/>
 // import QuoteSummaryResult from "QuoteSummaryIfaces";
-import { QuoteSummaryResult } from "./quoteSummary-iface.js";
+import { QuoteSummaryResult } from "./quoteSummary-iface.ts";
 
 import type {
   ModuleOptions,
   ModuleOptionsWithValidateTrue,
   ModuleOptionsWithValidateFalse,
   ModuleThis,
-} from "../lib/moduleCommon.js";
+} from "../lib/moduleCommon.ts";
 
 export const quoteSummary_modules = [
   "assetProfile",

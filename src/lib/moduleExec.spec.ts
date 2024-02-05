@@ -1,9 +1,9 @@
 import { jest } from "@jest/globals";
 
-import search from "../modules/search.js";
-import chart from "../modules/chart.js";
-import { InvalidOptionsError } from "./errors.js";
-import testYf from "../../tests/testYf.js";
+import search from "../modules/search.ts";
+import chart from "../modules/chart.ts";
+import { InvalidOptionsError } from "./errors.ts";
+import testYf from "../../tests/testYf.ts";
 
 const yf = testYf({ search, chart });
 yf._opts.validation.logOptionsErrors = false;

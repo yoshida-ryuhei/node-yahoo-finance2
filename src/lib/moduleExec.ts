@@ -15,8 +15,8 @@
  * Further info below, inline.
  */
 
-import validateAndCoerceTypes from "./validateAndCoerceTypes.js";
-import csv2json from "./csv2json.js";
+import validateAndCoerceTypes from "./validateAndCoerceTypes.ts";
+import csv2json from "./csv2json.ts";
 
 // The consuming module itself will have a stricter return type.
 type TransformFunc = (arg: any) => any;
