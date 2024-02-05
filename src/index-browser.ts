@@ -1,5 +1,5 @@
-import yahooFinance from "./index-common.js";
-import browserEnvironment from "./env-browser.js";
+import yahooFinance from "./index-common.ts";
+import browserEnvironment from "./env-browser.ts";
 
 yahooFinance._env = browserEnvironment;
 
