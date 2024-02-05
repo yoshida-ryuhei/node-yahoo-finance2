@@ -5,10 +5,9 @@ import type { YahooFinanceOptions } from "./options.ts";
 import type { QueueOptions } from "./queue.ts";
 
 import errors from "./errors.ts";
-import pkg from "../../package.json";
 import getCrumb from "./getCrumb.ts";
 
-const userAgent = `${pkg.name}/${pkg.version} (+${pkg.repository})`;
+const userAgent = `yahoo-finance2/0.0.1`;
 
 interface YahooFinanceFetchThisEnv {
   [key: string]: any;
